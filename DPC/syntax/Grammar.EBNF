@@ -1,0 +1,41 @@
+comment = "//" ;
+
+characters = { "a-z" | "A-Z" | "symbols" } ;
+digit = { "1-9" } ;
+identify = characters, digit ;
+var_identify = "$", identify ;
+datatype = string, int, float, boolean, null ;
+
+string = { '"', characters, digit, '"' } ;
+int = { [+ | -] digit } ;
+float = { [+ | -] digit "." digit } ;
+boolean = { "true" | "false" } ;
+null = { "null" } ;
+
+operator = { "+" | "-" | "*" | "/" | "(" | ")" | "{" | "}" | ":" | "." | "&" | "|" | "=" | "==" | "!=" | ">" | "<" } ;
+
+flag = { "--", identify }, [ datatype ] ;
+
+all_statement = api_statement, if_statement, for_statement, switch_statement, variable_statement ;
+api_statement = { "API", ".", identify }, [ flag ] ;
+if_statement = { "if", condition, ":", all_statement } ;
+for_statement = { "for",  initialization, condition, do_operator, ":", all_statement} ;
+switch_statement = { "switch", var_identify, "{", all_statement, switch_scope_statement, "}" } ;
+variable_statement = { var_identify, "=", datatype } ;
+
+initialization = variable_statement ;
+condition = expression ;
+do_operator = { "+" "+" | "-" "-" } ;
+
+expression = term, { ( "+" "-" ), term } ;
+term = factor, { ( "*" "/" ), factor } ;
+factor = unary_operator, factor primary ;
+unary_operator  = "+" "-" "!" ;
+primary = "(", expression, ")" ;
+
+logical_operator = "&&" "" ;
+relational_operator = "==" "!=" ">" "<" ;
+assignment_operator = "=" ;
+
+switch_scope_statement = return_statement ;
+return_statement = { "return", datatype } ;

@@ -1,0 +1,27 @@
+// API Statement
+API_Method_List = [
+    Cout                        ,
+    Cin                         ,
+    ValidTokenValue             ,
+    ValidTokenType              ,
+    ImportGlobal                ,
+    ExportGlobal                ,
+    Include                     ,
+    Import                      ,
+    GetLibIncludeList           ,
+    ReadFile                    ,
+    WriteFile                   ,
+    AppendFile                  ,
+    CreateFile                  ,
+    DeleteFile                  ,
+    ExistFile                   ,
+    CreateFolder                ,
+    DeleteFolder                ,
+    GetFullPath                 ,
+	Const						,
+]
+
+FLAG_List = [
+	debug						,
+	draw-token-flow				,
+]

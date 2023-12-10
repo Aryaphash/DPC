@@ -1,0 +1,14 @@
+D:\Projects\DP-Console\DPCE1\bin\Release\net8.0\DPCE1.exe
+D:\Projects\DP-Console\DPCE1\bin\Release\net8.0\DPCE1.deps.json
+D:\Projects\DP-Console\DPCE1\bin\Release\net8.0\DPCE1.runtimeconfig.json
+D:\Projects\DP-Console\DPCE1\bin\Release\net8.0\DPCE1.dll
+D:\Projects\DP-Console\DPCE1\bin\Release\net8.0\DPCE1.pdb
+D:\Projects\DP-Console\DPCE1\obj\Release\net8.0\DPCE1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\DP-Console\DPCE1\obj\Release\net8.0\DPCE1.AssemblyInfoInputs.cache
+D:\Projects\DP-Console\DPCE1\obj\Release\net8.0\DPCE1.AssemblyInfo.cs
+D:\Projects\DP-Console\DPCE1\obj\Release\net8.0\DPCE1.csproj.CoreCompileInputs.cache
+D:\Projects\DP-Console\DPCE1\obj\Release\net8.0\DPCE1.dll
+D:\Projects\DP-Console\DPCE1\obj\Release\net8.0\refint\DPCE1.dll
+D:\Projects\DP-Console\DPCE1\obj\Release\net8.0\DPCE1.pdb
+D:\Projects\DP-Console\DPCE1\obj\Release\net8.0\DPCE1.genruntimeconfig.cache
+D:\Projects\DP-Console\DPCE1\obj\Release\net8.0\ref\DPCE1.dll

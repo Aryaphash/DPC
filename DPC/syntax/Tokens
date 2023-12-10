@@ -1,0 +1,64 @@
+KEYWORDS = [
+    API                                 ,
+    if                                  ,
+    for                                 ,
+    switch                              ,
+    return                              ,
+]
+
+OPERATORS = [
+    +                                   ,
+    -                                   ,
+    *                                   ,
+    /                                   ,
+    (                                   ,
+    )                                   ,
+    {                                   ,
+    }                                   ,
+    :                                   ,
+    .                                   ,
+    &                                   ,
+    |                                   ,
+    =                                   ,
+    ==                                  ,
+    !=                                  ,
+    >                                   ,
+    <                                   ,
+]
+
+SYMBOL = [
+    $                                   ,
+]
+
+FLAG = [
+    debug                               ,
+    draw-token-flow                     ,
+    help-bio                            ,
+    next-token-call                     ,
+    next-token-type-call                ,
+    first-token-call                    ,
+    first-token-type-call               ,
+    last-token-call                     ,
+    last-token-type-call                ,
+    stop                                ,
+]
+
+DATATYPE = [
+    STRING                              ,
+    INT                                 ,
+    FLOAT                               ,
+    BOOLEAN                             ,
+    NULL                                ,
+]
+
+SEPARATORS = [
+    OPERATORS                           ,
+    WHITESPACE                          ,
+    EOF                                 ,
+    EOL                                 ,
+    ;                                   ,
+]
+
+COMMENT = [
+    //                                  ,
+]
